@@ -1,0 +1,39 @@
+.sectionDescription {
+	margin-left: 20px;
+}
+.signature {
+	font-size: 10px;
+	letter-spacing: 5px;
+	color: hsl(228, 12%, 48%);
+	font-family: "Montserrat", sans-serif;
+}
+.headerContent {
+	font-size: 34px;
+	font-weight: 700;
+	margin-top: -2px;
+	margin-bottom: 4px;
+	font-family: "Fraunces", serif;
+	color: hsl(212, 21%, 14%);
+}
+.textContent {
+	width: 79%;
+	letter-spacing: 1px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 30px;
+	color: hsl(228, 12%, 48%);
+}
+@media screen and (min-width: 1000px) {
+	.signature {
+		margin-bottom: 30px;
+	}
+	.headerContent {
+		width: 16vw;
+		margin-bottom: 30px;
+	}
+	.textContent {
+		width: 15vw;
+		margin-bottom: 19.5px;
+	}
+}

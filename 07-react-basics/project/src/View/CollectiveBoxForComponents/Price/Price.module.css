@@ -1,0 +1,50 @@
+.sectionBuy {
+	margin-left: 25px;
+}
+.priceContainer {
+	display: flex;
+	align-items: center;
+	margin-bottom: -15px;
+}
+.secondPrice {
+	font-size: 40px;
+	font-weight: 700;
+	font-family: "Fraunces", serif;
+	color: hsl(158, 36%, 37%);
+	margin-right: 10px;
+	text-decoration: none;
+}
+.firstPrice {
+	text-decoration: line-through;
+	color: hsl(228, 12%, 48%);
+	font-size: 14px;
+}
+.buttonAddToCart {
+	width: 73vw;
+	height: 7vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	border: none;
+	background: hsl(158, 36%, 37%);
+	position: relative;
+	left: 5px;
+	margin-top: 60px;
+}
+.imageInButton {
+	margin-right: 10px;
+}
+.textInButton {
+	color: hsl(0, 0%, 100%);
+	font-weight: 500;
+	font-family: "Montserrat", sans-serif;
+}
+@media screen and (min-width: 1000px) {
+	.buttonAddToCart {
+		width: 18vw;
+		height: 7vh;
+		margin-left: -8px;
+		margin-top: 54px;
+	}
+}
