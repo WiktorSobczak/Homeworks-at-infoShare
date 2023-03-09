@@ -1,0 +1,45 @@
+.headerFrame {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	padding-bottom: 13px;
+	box-shadow: 0 6px hsl(0deg 0% 50%);
+}
+.title {
+	font-size: 16px;
+	width: 800;
+	margin-left: 25px;
+    padding-top: 15px;
+}
+.buttonDarkMode {
+	background: white;
+	border: none;
+	margin-right: 104px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.moonOutline{
+    position: relative;
+    left: 0px;
+    top: 5px;
+}
+@media screen and (max-width:1000px){
+	body{
+		width: 375px;
+		overflow-x: hidden;
+	}
+	.headerFrame {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 13px;
+		box-shadow: 0 6px hsl(0deg 0% 50%);
+	}
+	.buttonDarkMode {
+		background: white;
+		border: none;
+		margin-right: 19px;
+		font-weight: 700;
+		padding-top: 5px;
+	}
+}

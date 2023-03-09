@@ -1,0 +1,22 @@
+.searchBar{
+    width: 150%;
+    height: 50px;
+    border: none;
+    margin-left: 25px;
+    color:hsl(0, 0%, 52%);
+    padding-left: 40px;
+}
+.searchOutline{
+    position: relative;
+    top: 41px;
+    left: 34px;
+}
+@media screen and (max-width:1000px){
+    .searchBar{
+        width: 60%;
+    }
+    .searchOutline{
+        top: 7px;
+        left: 59px;
+    }
+}

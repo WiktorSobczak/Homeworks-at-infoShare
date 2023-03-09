@@ -1,0 +1,8 @@
+.pageDetailsCountriesStyle{
+    display: flex;
+}
+@media screen and (max-width:1000px){
+    .pageDetailsCountriesStyle{
+        display: block;
+    }  
+}
