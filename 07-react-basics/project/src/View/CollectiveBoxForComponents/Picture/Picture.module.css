@@ -1,0 +1,23 @@
+@media screen and (max-width: 1000px) {
+	.imageMobile {
+		border-top-left-radius: 17px;
+		border-top-right-radius: 17px;
+		width: 90vw;
+		height: 42vh;
+	}
+	.imageDesktop {
+		display: none;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.imageMobile {
+		display: none;
+	}
+	.imageDesktop {
+		position: relative;
+		height: 78vh;
+		border-bottom-left-radius: 17px;
+		border-top-left-radius: 17px;
+		width: 23vw;
+	}
+}

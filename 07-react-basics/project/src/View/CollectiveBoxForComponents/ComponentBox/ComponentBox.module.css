@@ -1,0 +1,17 @@
+.backgroundDisplay {
+	background: hsl(0, 0%, 100%);
+	border-radius: 17px;
+	position: relative;
+	left: 7px;
+	top: 12px;
+	width: 90vw;
+	height: 90vh;
+	padding-bottom: 87px;
+}
+@media screen and (min-width: 1000px) {
+	.backgroundDisplay {
+		display: flex;
+		width: 47vw;
+		height: 65vh;
+	}
+}
