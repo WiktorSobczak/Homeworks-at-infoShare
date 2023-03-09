@@ -1,0 +1,161 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 375px;
+	font-size: 18px;
+	font-family: "Space Mono", monospace;
+	margin: 10px;
+	padding: 0;
+	color: hsl(172, 67%, 45%);
+	overflow-x: hidden;
+}
+input,
+button {
+	font-size: 24px;
+	font-family: "Space Mono", monospace;
+}
+button {
+	background-color: hsl(183, 100%, 15%);
+	border: none;
+	color: hsl(189, 41%, 97%);
+}
+.operation-name {
+	margin-left: 1.5rem;
+}
+#bill,
+#quantity {
+	position: relative;
+	left: 1em;
+	width: 83vw;
+	background-color: hsl(189, 41%, 97%);
+	border: none;
+	color: hsl(186, 14%, 43%);
+}
+.box-choice-input {
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	width: 95vw;
+}
+
+.button-calculate {
+	margin-top: 33px;
+	position: relative;
+	left: 55vw;
+	width: 33vw;
+	height: 8vh;
+	border-radius: 10px;
+	text-align: -9px;
+	letter-spacing: -2px;
+}
+.section-display-result {
+	background: hsl(183, 100%, 15%);
+	width: 100vw;
+	height: 61vh;
+	border-radius: 15px;
+	margin: 57px 0 0 -10px;
+}
+.button-reset {
+	position: relative;
+	left: 1.5rem;
+	top: 2rem;
+	width: 82vw;
+	height: 8vh;
+	border-radius: 10px;
+	background: hsl(186, 14%, 43%);
+	color: hsl(183, 100%, 15%);
+}
+.box-value {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+}
+
+.value-tip,
+.value-total {
+	font-size: 50px;
+	margin-right: 13px;
+}
+.five-percent,
+.ten-percent,
+.fifteen-percent {
+	width: 20vw;
+	height: 8vh;
+	border-radius: 10px;
+	background-color: hsl(183, 100%, 15%);
+	border: none;
+	color: hsl(189, 41%, 97%);
+}
+.input-procent {
+	width: 20vw;
+	height: 8vh;
+	border-radius: 10px;
+	background-color: hsl(183, 100%, 15%);
+	border: none;
+	color: hsl(189, 41%, 97%);
+}
+.input-procent-active {
+	width: 20vw;
+	height: 8vh;
+	border-radius: 10px;
+	background-color: hsl(186, 14%, 43%);
+	border: none;
+	color: hsl(189, 41%, 97%);
+}
+
+@media screen and (min-width: 1000px) {
+	body {
+		width: 1440px;
+		display: flex;
+		overflow-x: auto;
+	}
+	.section-display-result {
+		background: hsl(183, 100%, 15%);
+		width: 50vw;
+		height: 100vh;
+		border-radius: 15px;
+		margin: 0px 0 0 0px;
+	}
+	.section-manipulation-data {
+		width: 50vw;
+	}
+	.button-reset {
+		left: 1.5rem;
+		top: 13rem;
+		width: 45vw;
+		height: 8vh;
+	}
+
+	.box-choice-input {
+		width: 44vw;
+	}
+	.five-percent,
+	.ten-percent,
+	.fifteen-percent {
+		width: 13vw;
+		height: 8vh;
+	}
+	#bill,
+	#quantity {
+		width: 43vw;
+		height: 6vh;
+	}
+	.button-calculate {
+		margin-top: 310px;
+		left: 22.3rem;
+		width: 18vw;
+		height: 8vh;
+	}
+	.value-tip,
+	.value-total {
+		margin-right: 30px;
+	}
+
+	.input-procent {
+		width: 13vw;
+	}
+	.input-procent-active {
+		width: 13vw;
+	}
+}

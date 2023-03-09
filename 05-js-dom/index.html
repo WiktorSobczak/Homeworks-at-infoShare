@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="section-manipulation-data">
+        <div class="box-data">
+            <p class="operation-name">Bill</p>
+            <input id="bill" name="bill" type="number" value="">
+        </div>
+        <p class="operation-name">Select Tip %</p>
+        <div class="box-choice-input">
+            <input class="five-percent" type="button" value="5%">
+            <input class="ten-percent" type="button" value="10%">
+            <input class="fifteen-percent" type="button" value="15%">
+        </div>
+        <div class="box-data">
+            <p class="operation-name">Number of People</p>
+            <input id="quantity" name="quantity" type="number" value="">
+        </div>
+        <button class="button-calculate">Calculate</button>
+    </section>
+    <section class="section-display-result">
+        <div class="box-value">
+            <div class="box-text">
+                <p>Tip Amount</p>
+                <p>/person</p>
+            </div>
+            <span class="value-tip">$ 0.00</span>
+        </div>
+        <div class="box-value">
+            <div class="box-text">
+                <p>Total</p>
+                <p>/person</p>
+            </div>
+            <span class="value-total">$ 0.00</span>
+        </div>
+        <button class="button-reset">RESET</button>
+    </section>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
