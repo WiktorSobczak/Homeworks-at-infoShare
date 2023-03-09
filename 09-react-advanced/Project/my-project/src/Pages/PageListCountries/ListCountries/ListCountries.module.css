@@ -1,0 +1,6 @@
+.boxCountry {
+	display: grid;
+	grid-template-columns: 242px;
+	padding: 20px;
+	height: 320px;
+}

@@ -1,0 +1,21 @@
+.findCountrySection {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	padding-top: 30px;
+}
+.listCountryStyle {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 10px;
+}
+@media screen and (max-width:1000px){
+	.listCountryStyle {
+		grid-template-columns: 1fr;
+	}
+	.findCountrySection {
+		display: block;
+		font-size: 14px;
+		padding-top: 30px;
+	}
+}
