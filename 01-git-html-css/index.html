@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="#about" class="about-contact">O nas</a>
+          </li>
+          <li class="menu-item">
+            <a href="#products" class="Product"><b>Produkty</b></a>
+          </li>
+          <li class="menu-item">
+            <a href="#contact" class="about-contact">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <section class="header" id="about">O nas</section>
+        <h4 class="title"><i>DR WITT</i></h4>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas deserunt
+          odit minima earum in incidunt totam nihil, quia delectus a nemo
+          molestiae quae ipsam quaerat consectetur corrupti aliquid ducimus
+          voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Quas deserunt odit minima earum in incidunt totam nihil, quia delectus
+          a nemo molestiae quae ipsam quaerat consectetur corrupti aliquid
+          ducimus voluptates!
+        </p>
+      </section>
+      <section>
+        <section class="header" id="products">Produkty</section>
+        <h4><b>Traktor</b></h4>
+        <img alt="Tractor" class="image" src="images/Traktor.png" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
+          sequi sapiente ea odit. Pariatur, officiis ducimus quasi neque rem
+          temporibus quidem facilis corporis, fugiat cum voluptatem
+          necessitatibus ipsa architecto tenetur. Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Explicabo sequi sapiente ea odit.
+          Pariatur, officiis ducimus quasi neque rem temporibus quidem facilis
+          corporis, fugiat cum voluptatem necessitatibus ipsa architecto
+          tenetur.
+        </p>
+        <h4>
+          <span class="Lambo"><b>Lamburgini</b></span>
+        </h4>
+        <img alt="Lamburgini" class="image" src="images/Lamburgini.png" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum rem
+          consequatur sit magni facilis. Ratione quidem dolores non veniam!
+          Minus ea exercitationem debitis consectetur aspernatur voluptatum
+          eaque cupiditate cum officiis? Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Nostrum rem consequatur sit magni facilis. Ratione
+          quidem dolores non veniam! Minus ea exercitationem debitis consectetur
+          aspernatur voluptatum eaque cupiditate cum officiis?
+        </p>
+        <h4><b>Kellys</b></h4>
+        <img alt="Bicycle" class="image" src="images/Kellys.png" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id odit
+          cumque quidem vero sunt natus. Eum neque eos nam provident esse totam,
+          non omnis similique sint accusamus, dicta corrupti velit. Lorem ipsum
+          dolor sit amet consectetur, adipisicing elit. Id odit cumque quidem
+          vero sunt natus. Eum neque eos nam provident esse totam, non omnis
+          similique sint accusamus, dicta corrupti velit.
+        </p>
+      </section>
+      <section>
+        <section class="header" id="contact">Kontakt</section>
+        <form>
+          <div class="name">
+            <label for="name" class="name-text">Imię:</label>
+            <input type="text" name="name" />
+          </div>
+          <div class="email">
+            <label for="email" class="email-text">Email:</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="info">
+            <label for="info" class="info-text"
+              >Wiadomość:<textarea name="messege"></textarea>
+            </label>
+          </div>
+          <div class="button">
+            <button onclick="Send()">
+              <p>Wyślij</p>
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <a
+        href="https://github.com/infoshareacademy/jfdzr8-student-WiktorSobczak"
+        target="blank"
+      >
+        <img
+          alt="click here to go github"
+          class="img-git"
+          src="images/GitHub.png"
+      /></a>
+    </footer>
+    <script src="site.js"></script>
+  </body>
+</html>
