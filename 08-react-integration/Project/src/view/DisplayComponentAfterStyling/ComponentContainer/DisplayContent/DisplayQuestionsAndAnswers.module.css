@@ -1,0 +1,28 @@
+.questionBold{
+    font-weight: bold;
+}
+.arrow{
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 20rem;
+    top: -1rem;
+
+    
+}
+.arrowInitial{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 20rem;
+    top: -1rem;
+}
+.displayAnswer{ 
+    width: 75%;
+    margin-top: 0px;
+    border-bottom: 2px solid hsl(240, 5%, 91%);
+    color: hsl(240, 6%, 50%);
+    line-height: 17px;
+    
+}

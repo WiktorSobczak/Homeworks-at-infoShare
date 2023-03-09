@@ -1,0 +1,8 @@
+.background{
+    background: linear-gradient(0deg, hsl(241, 74%, 65%) 14%, hsl(273, 76%, 66%) 82%);
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
