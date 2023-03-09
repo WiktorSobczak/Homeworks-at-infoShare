@@ -1,0 +1,7 @@
+.componentStylization{
+    width: 65%;
+    height: 67%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius:20px ;
+    display: flex;
+}
